@@ -1,5 +1,5 @@
 <?php
-	include $_SERVER['DOCUMENT_ROOT']."/board/db.php";
+  require_once $_SERVER['DOCUMENT_ROOT']."/board/db.php";
 ?>
 <!doctype html>
 <head>

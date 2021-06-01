@@ -1,7 +1,7 @@
 <?php 
-include  $_SERVER['DOCUMENT_ROOT']."/board/db.php"; 
+  require_once $_SERVER['DOCUMENT_ROOT']."/board/db.php"; 
 
-$sql = queryFunc("SELECT * FROM list ORDER BY idx DESC");
+  $sql = queryFunc("SELECT * FROM list ORDER BY idx DESC");
 ?>
 
 <!doctype html>
