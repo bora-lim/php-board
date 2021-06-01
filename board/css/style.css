@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+html {
+  padding: 60px;
+}
+
+ul,
+li,
+ol,
+dl {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+input,
+button,
+textarea {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 0;
+}
+button {
+  cursor: pointer;
+}
+
+#board-wr {
+  position: relative;
+  max-width: 70vw;
+  margin: 0 auto;
+}
+.board-list {
+  position: relative;
+  width: 100%;
+  margin: 0 auto 50px;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+thead {
+  border-bottom: 2px solid #000;
+}
+
+tbody {
+}
+
+table tbody tr {
+  border-bottom: 1px solid #000;
+  transition: all 0.5s;
+}
+table tbody tr:hover {
+  background: #eee;
+}
+
+table tr th {
+  padding: 1em 2em;
+}
+
+table tr td {
+  padding: 2em;
+}
+.title {
+  width: 65%;
+}
+
+.btn-write,
+.btn-complete {
+  float: right;
+}
+
+.btn-write a,
+.btn-complete,
+.btn-box ul li a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 700;
+  background: #000;
+}
+
+form {
+}
+
+input[type="text"] {
+  padding: 0.5em;
+  border: 1px solid #000;
+  margin-right: 50px;
+}
+
+.board-view {
+}
+.board-view h2 {
+  font-size: 25px;
+  margin-bottom: 0.5em;
+}
+.board-view > p {
+  margin-bottom: 0.5em;
+}
+.board-view .bd-cont {
+  min-height: 300px;
+  padding: 1em;
+  margin-bottom: 30px;
+  border: 1px solid #000;
+}
+
+.btn-box {
+  float: right;
+}
+
+.btn-box ul li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+.btn-box ul li:last-child {
+  margin-right: 0;
+}
+
+.bd-write {
+  position: relative;
+  width: 100%;
+  margin: 0 auto 50px;
+}
+
+.bd-write form {
+}
+
+.bd-cont {
+  width: 100%;
+}
+
+.bd-cont textarea {
+  width: 100%;
+  min-height: 300px;
+  padding: 1em;
+  margin: 2em 0;
+  border: 1px solid #000;
+}
