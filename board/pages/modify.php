@@ -8,7 +8,7 @@
 <!doctype html>
 <head>
 <meta charset="UTF-8">
-<title>게시판 - 수정</title>
+<title>게시판 - 글수정</title>
 <link rel="stylesheet" href="/board/css/style.css" />
 </head>
 <body>
